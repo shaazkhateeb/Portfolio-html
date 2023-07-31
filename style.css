@@ -1,0 +1,53 @@
+body {
+    background-color: #fdfaf3;
+    color: #000000;
+    font-family: Arial;
+    margin: 0px;
+}
+.navbar {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    border: 2px solid #000;
+}
+.navbar h1 {
+    margin: 0px;
+    padding: 1rem;
+}
+.heading-left {
+    border-right: 2px solid #000;
+    padding-right: 20px;
+}
+.resume-heading {
+    border-left: 2px solid #000;
+    padding-left: 20px;
+}
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left-div{
+    padding: 1rem;
+}
+.chips-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.chip {
+    border: 2px solid #000;
+    border-radius: 32px;
+    padding: 16px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.right-img{
+    height: 800px;
+    width: 50%;
+    object-fit: cover;
+}
